@@ -1,0 +1,145 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 75%;
+    margin: 3em auto; 
+    
+}
+
+header {
+    border-bottom: 5px aqua solid;
+    min-height: 120px;
+    min-width: 450px;
+    width: auto;
+    background-color: pink;
+    padding: 1em 2em;
+    position: relative;
+}
+
+h1 {
+    padding: 0.25em 1em 2em 0em;
+    width: auto;
+    min-width: 450px;
+    font-size: 3rem;
+    float: left;
+    position: absolute;
+  
+}
+
+ul {
+    text-align: end;
+    list-style-type: none;
+    max-height: 100px;
+    width: auto;
+    min-width: 200px;
+    position: absolute;
+    top: 70px;
+    right: 30px
+    
+}
+li {
+    display: block;
+    font-size: 0.8em;
+    padding: 0.25em;
+    list-style: none;
+    line-height: 1.2em;
+    min-width: 200px;
+}
+
+section {
+    background-color: #eefbfb;
+    display: block;
+    margin: 1em 0em;
+    padding: 0.25em;
+}
+
+section h2 {
+    display: block;
+    padding-left: 1.8em;
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+}
+
+p {
+    padding: 1em;
+    line-height: 1.5em;
+    position: relative;
+    margin: 1em 1.8em;
+}
+
+#workExperience {
+    float: left;
+    width: auto;
+    min-width: 450px;
+    min-height: 300px;
+    height: auto;
+    
+}
+
+#objective {
+    height: auto;
+    width: auto;
+    min-width: 450px;
+    float: left; 
+    clear: both;
+}
+
+#education {
+    float: left;
+    height: auto;
+    width: auto;
+    min-width: 450px;
+    position: relative;
+}
+
+.year {
+    float: left;
+}
+
+.content {
+    float: right;
+}
+
+content h3 {
+    float: left;
+    padding-left: 5em;
+}
+
+#leadership {
+    float:right;
+    width: auto;
+    max-width: 650px;
+    height: auto;
+    
+}
+
+#charity {
+    clear: both;
+    width: auto;
+    min-width: 450px;
+    position: relative;
+    top: 15px   
+}
+
+footer {
+    display: block;
+    background-color: #E2FBFB;
+    height: auto;
+    margin: 2em 0em;
+    text-align: center;
+    padding: 2.5em 1em 1em;
+    clear: both;
+}
+
+a:link {
+    color: rgb(24, 87, 87);
+}
+
+a:hover {
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+a:visted {
+    color: #FFC89A
+}

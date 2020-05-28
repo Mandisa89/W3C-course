@@ -1,0 +1,165 @@
+body {
+    width: 75%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FFF2E6;
+}
+#main-wrapper {
+    position: relative;
+    background-color: yellow;
+}
+
+h2 {
+    padding: 0em;
+    margin: 0em;
+}
+
+p {
+    font-weight: 400;
+    padding: 1em 2em;
+}
+
+#main-header {
+    position: relative;
+    border-bottom: 3px solid cadetblue;
+    min-height: 100px;
+    margin-top: 2em;
+    clear: both;
+}
+
+#main-header h1 {
+    position: absolute;
+    left: 0em;
+    font-size: 3em;;
+}
+
+#contacts {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    list-style: none;
+}
+
+.top-left {
+    clear: both;
+    position: relative;
+    width:
+    min-height: 450px;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 1em;
+    border-bottom: 2px solid black;
+}
+
+.year {
+    min-width: 10%;
+    padding: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    position: relative;
+    top: 50px;
+    left: 20px
+}
+
+.content {
+    clear: left;
+    padding: 1em;
+    border-left: 2px solid black;
+    box-sizing: border-box;
+    position: relative;
+    left: 120px;
+    top: -80px;
+    max-width: 70%;
+    max-height: 300px;
+   
+}
+
+#workExperience {
+    margin-top: 2em;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    width: 50%;
+    float: left;
+    clear: right;
+    position: relative;
+    box-sizing: border-box;
+    background-color: orange;
+}
+
+#workExperience .content {
+    margin-top: 3em;
+}
+
+#objective {
+    margin-top: 2em;
+    background-color: #7FC0CF;
+    width: 50%;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    border-left: 5px solid #FFF2E6;
+    border-right: 5px solid #FFF2E6;
+}
+
+#education {
+    
+    float: left;
+    position: relative;
+    background: cadetblue;
+    width: 50%;
+    box-sizing: border-box;
+    border-top: 10px solid #FFF2E6;
+    border-left: 5px solid #FFF2E6;
+    border-right: 5px solid #FFF2E6;
+}
+
+#leadership {
+
+    background-color:#FFB163;
+    width: 50%;
+    float: right;
+    position: relative;
+    box-sizing: border-box;
+    border-top: 10px solid #FFF2E6;
+    border-left: 5px solid #FFF2E6;
+    border-right: 5px solid #FFF2E6;
+}
+
+#charity {
+    background-color: #CBECF4;
+    width: 50%;
+    min-height: 624px;
+    height: auto;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    border-top: 10px solid #FFF2E6;
+    border-left: 5px solid #FFF2E6;
+    border-right: 5px solid #FFF2E6;
+}
+
+footer {
+    margin-top: 5em;
+    background-color: #FFF2E6;
+    height: auto;
+    text-align: center;
+    padding: 2.5em 1em 1em;
+    clear: both;
+}
+
+a:link {
+    color: rgb(24, 87, 87);
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+a:visted {
+    color: orange;
+}
+}
+
